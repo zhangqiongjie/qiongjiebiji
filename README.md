@@ -6,11 +6,15 @@ Helm chart for Atlassian Confluence Server.
 ## Installing the Chart
 Before you can install the chart you will need to add the `stevehipwell` repo to [Helm](https://helm.sh/).
 ```
-helm repo add stevehipwell https://stevehipwell.github.io/helm-charts
+git clone https://github.com/zhangqiongjie/qiongjiebiji.git
+```
+Unzip the gzp format file and switch to the unzipped directory。
+```
+tar -xvf confluence-server-3.3.1.tgz && cd confluence-server
 ```
 After you've installed the repo you can install the chart.
 ```
-helm upgrade --install --namespace default --values ./my-values.yaml my-release stevehipwell/confluence-server
+helm upgrade --install --namespace default --values ./values-production.yaml my-release ./
 ```
 ## Configuration
 The following table lists the configurable parameters of the _Confluence Server_ chart and their default values.

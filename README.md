@@ -6,7 +6,7 @@ Helm chart for Atlassian Confluence Server.
 ## Installing the Chart
 Before you can install the chart you will need to add the `stevehipwell` repo to [Helm](https://helm.sh/).
 ```
-git clone https://github.com/zhangqiongjie/qiongjiebiji.git
+git clone https://github.com/zhangqiongjie/qiongjiebiji.git -b helm-chart
 ```
 Unzip the gzp format file and switch to the unzipped directory。
 ```

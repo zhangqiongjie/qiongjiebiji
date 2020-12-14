@@ -4,7 +4,7 @@ Helm chart for Atlassian Confluence Server.
 # Confluence Server
 [Atlassian Confluence Server](https://www.atlassian.com/software/confluence) is your remote-friendly team workspace where knowledge and collaboration meet.
 ## Installing the Chart
-Before you can install the chart you will need to add the `stevehipwell` repo to [Helm](https://helm.sh/).
+Before installing the chart you will need to add the `stevehipwell` repo to [Helm](https://helm.sh/).
 ```
 git clone https://github.com/zhangqiongjie/qiongjiebiji.git -b helm-chart
 ```
